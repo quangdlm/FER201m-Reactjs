@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+    .column{
+        .card{
+            width: fit-content;
+            height: 500px;
+            border: solid 1px;
+            width: 300px; /* Chiều rộng của container */
+            height: 400px; /* Chiều cao của container */
+            overflow: hidden;
+            img{
+                width: 100%; /* Hình ảnh sẽ chiếm toàn bộ chiều rộng của container */
+                height: 50%;
+                object-fit: cover;
+            }
+            .title{
+                p{
+                    background-color: black;
+                    button{
+                        display: block;
+                        width: 100%;
+                        background-color: black;
+                        color: white;
+                    }
+                }
+                
+            }
+        }
+    }
+}

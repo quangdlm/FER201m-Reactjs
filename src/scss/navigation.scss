@@ -1,0 +1,23 @@
+li{
+    padding: 5px 10px;
+}
+li:hover{
+        background-color: yellow;
+        a{
+            color: black;
+        }
+}
+ul{
+    list-style: none;
+    display:flex;
+    justify-content:flex-start;
+     margin-left:100px;
+}
+
+nav{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
